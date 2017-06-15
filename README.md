@@ -30,12 +30,12 @@ Usages
 ```
 use Sensitive;
 
-$string='我是sensitive'
+$string='I am sensitive'
 
 $string=Sensitive::filter($string);
 
 dd($string)
-//"我是*"
+//"I am *"
 ```
 
 License
