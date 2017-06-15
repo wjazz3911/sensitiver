@@ -24,6 +24,20 @@ Then add`Facades`:
 'Sensitive' => Wjazz\Sensitiver\SensitiveFacade::class,
 ```
 
+Usages
+------------
+
+```
+use Sensitive;
+
+$string='我是sensitive'
+
+$string=Sensitive::filter($string);
+
+dd($string)
+//"我是*"
+```
+
 License
 ------------
 `Sensitiver` is licensed under [The MIT License (MIT)](LICENSE).
