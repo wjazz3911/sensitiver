@@ -40,4 +40,4 @@ dd($string)
 
 License
 ------------
-`Sensitiver` is licensed under [The MIT License (MIT)](LICENSE).
+`Sensitiver` is licensed under The MIT License (MIT).

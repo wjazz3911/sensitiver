@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "wjazz/sensitiver": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Wjazz\\Sensitiver\\":"src/"
